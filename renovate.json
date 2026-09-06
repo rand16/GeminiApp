@@ -19,7 +19,7 @@
       "groupName": "ML Kit"
     },
     {
-      "matchPackagePatterns": ["kotlin.*"],
+      "matchPackagePatterns": ["org.jetbrains.kotlin*", "org.jetbrains.kotlinx*"],
       "groupName": "Kotlin"
     }
   ],
