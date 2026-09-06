@@ -1,0 +1,28 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":preserveDisco",
+    ":separateMajorReleases"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["com.google.firebase*"],
+      "groupName": "Firebase"
+    },
+    {
+      "matchPackagePatterns": ["androidx.*"],
+      "groupName": "AndroidX"
+    },
+    {
+      "matchPackagePatterns": ["com.google.mlkit*"],
+      "groupName": "ML Kit"
+    },
+    {
+      "matchPackagePatterns": ["kotlin.*"],
+      "groupName": "Kotlin"
+    }
+  ],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["before 9am on monday"]
+}
