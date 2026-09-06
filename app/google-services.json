@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "588628037221",
+    "project_id": "geminiapp-c9811",
+    "storage_bucket": "geminiapp-c9811.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588628037221:android:34425fae39c1c612e1c08c",
+        "android_client_info": {
+          "package_name": "com.example.geminiapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8KBlg3xeTXX4uvR26gQOjEuTIW4Ru8SI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

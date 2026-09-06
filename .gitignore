@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+.externalNativeBuild/
+.cxx/
+
+# Local configuration
+local.properties
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Captures
+*.png
+*.jpg
+*.jpeg
+# (Keep the assets in res/drawable, but avoid committing large temporary captures)
