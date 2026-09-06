@@ -7,8 +7,8 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["com.google.firebase*"],
-      "groupName": "Firebase"
+      "matchPackagePatterns": ["com.google.firebase*", "com.google.gms*"],
+      "groupName": "Firebase & Google Services"
     },
     {
       "matchPackagePatterns": ["androidx.*"],
@@ -21,6 +21,10 @@
     {
       "matchPackagePatterns": ["org.jetbrains.kotlin*", "org.jetbrains.kotlinx*"],
       "groupName": "Kotlin"
+    },
+    {
+      "matchPackagePatterns": ["com.android.*", "com.google.devtools.ksp*"],
+      "groupName": "Build Tools"
     }
   ],
   "timezone": "Asia/Tokyo",
