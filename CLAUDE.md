@@ -17,4 +17,3 @@
 ## Project Structure
 - `/app`: Main application module.
 - `/gradle`: Gradle wrapper and version catalog.
-- `renovate.json`: Dependency update configuration.
