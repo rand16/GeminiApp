@@ -1,0 +1,32 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":preserveSemverRanges",
+    ":separateMajorReleases"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["com.google.firebase*", "com.google.gms*"],
+      "groupName": "Firebase & Google Services"
+    },
+    {
+      "matchPackagePatterns": ["androidx.*"],
+      "groupName": "AndroidX"
+    },
+    {
+      "matchPackagePatterns": ["com.google.mlkit*"],
+      "groupName": "ML Kit"
+    },
+    {
+      "matchPackagePatterns": ["org.jetbrains.kotlin*", "org.jetbrains.kotlinx*"],
+      "groupName": "Kotlin"
+    },
+    {
+      "matchPackagePatterns": ["com.android.*", "com.google.devtools.ksp*"],
+      "groupName": "Build Tools"
+    }
+  ],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["before 9am on monday"]
+}
